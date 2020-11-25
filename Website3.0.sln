@@ -4,10 +4,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website3.0", "Website3.0", "{4B914F9E-C8EA-489A-9274-DE4AF70E4FC3}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+		style.css = style.css
+		template.html = template.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{7C800C9E-2788-4C44-A8C0-7EEDDC1B9EFD}"
+	ProjectSection(SolutionItems) = preProject
+		images\obrazek1.jpg = images\obrazek1.jpg
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C800C9E-2788-4C44-A8C0-7EEDDC1B9EFD} = {4B914F9E-C8EA-489A-9274-DE4AF70E4FC3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5A89B67-9E4A-48C1-876C-0DB4FCF3D791}
