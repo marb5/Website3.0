@@ -6,6 +6,7 @@
 body {
     background-image: url('images/background.jpg');
     background-size: 100%;
+    background-position-y: 150px;
     /*background-attachment: fixed;
     background-repeat: repeat-x;
     background-color:#363636;
