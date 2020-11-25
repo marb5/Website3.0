@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('images/obrazek1.jpg');
+    background-image: url('images/background.jpg');
     background-size: 100%;
     /*background-attachment: fixed;
     background-repeat: repeat-x;
@@ -47,4 +47,42 @@ img.logo {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 11px;
     color:ghostwhite
+}
+
+/* TOP MENU */
+#top_menu {
+    position: absolute;
+    left: 60px;
+    bottom: -10px;
+    border-width: 2px 0px 2px 2px;
+    border-style: solid;
+    border-color:black;
+}
+
+#major_top_menu li {
+    list-style-type: none;
+    float: left;
+    border-right: 2px solid black;
+}
+
+#major_top_menu li a {
+    background-color: silver;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    padding: 0px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color:black;
+}
+
+#major_top_menu li a:hover {
+    background-color: grey;
+    color:deeppink;
+}
+
+span.link {
+    display: inline-block;
+    margin-top: 5px;
 }

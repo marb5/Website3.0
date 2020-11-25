@@ -12,9 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website3.0", "Website3.0", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{7C800C9E-2788-4C44-A8C0-7EEDDC1B9EFD}"
 	ProjectSection(SolutionItems) = preProject
+		images\background.jpg = images\background.jpg
 		images\logo.png = images\logo.png
-		images\obrazek1.jpg = images\obrazek1.jpg
-		images\programowanie_kodowanie-1024x724.jpg = images\programowanie_kodowanie-1024x724.jpg
+		images\programming.jpg = images\programming.jpg
 	EndProjectSection
 EndProject
 Global
