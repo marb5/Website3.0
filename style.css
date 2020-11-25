@@ -12,6 +12,15 @@ body {
     */
 }
 
+a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    color:deeppink;
+}
+
 #container {
     width: 100%;
 }
@@ -29,4 +38,13 @@ img.logo {
     position: absolute;
     left: 20px;
     top: 20px;
+}
+
+#contact_box {
+    position: absolute;
+    right: 40px;
+    top: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    color:ghostwhite
 }
