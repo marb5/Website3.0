@@ -5,6 +5,7 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website3.0", "Website3.0", "{4B914F9E-C8EA-489A-9274-DE4AF70E4FC3}"
 	ProjectSection(SolutionItems) = preProject
+		career.html = career.html
 		index.html = index.html
 		style.css = style.css
 		template.html = template.html
