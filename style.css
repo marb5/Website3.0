@@ -23,7 +23,9 @@ a:hover {
 }
 
 #container {
+    position: relative;
     width: 100%;
+    z-index: 0;
 }
 
 /* TOP CONTAINER PART */
@@ -125,6 +127,8 @@ span.link {
 
 /* Drop-down menu */
 #inner_menu_level1 li .inner_menu_level2 {
+    position: absolute;
+    z-index: 1;
     display: none;
     position: absolute;
     background-color: darkgray;
